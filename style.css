@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container{
+    height: auto;
+    width: 100%;
+    background-color: rgb(58, 73, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.small-container{
+    height:auto;
+    width:90% ;
+    background-color: rgb(151, 150, 150);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    border: 1px solid white;
+}
+.small-small-container{
+    height: auto;
+    width: 95%;
+    background-color: black;
+}
+nav{
+    height:7%;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    
+    /* padding-block: 20px; */
+}
+.left-nav{
+width: 30%;
+/* background-color: blue; */
+}
+.left-nav p{
+    position: relative;
+    left: 100px;
+    color:yellow;
+    font-size: 18px;
+}
+.right-nav{
+    width: 50%;
+    /* background-color: blanchedalmond; */
+}
+
+.right-nav ul{
+    width: 90%;
+    /* background-color: burlywood; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.right-nav ul li{
+    list-style: none;
+}
+.right-nav ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family:"Sour Gummy", serif;;
+}
+.sign-up{
+    height: 7%;
+    width: 100px;
+    /* background-color: green; */
+    position: relative;
+    /* /* left: 15px; */
+    border-left: 1px solid rgb(55, 53, 53);
+    /* display: flex;
+    align-items: center;
+    justify-content: center;  */
+}
+.sign-up a{
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+    left: 80px;
+    font-size: 17px;
+    /* border-left: 1px solid gray; */
+    
+}
+.sign-up li{
+    list-style: none;
+    /* border-left: 1px solid gray; */
+
+}
+.line{
+    height: 10px;
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #080808;
+
+}
+hr{
+    width: 82%;
+    border: 1px solid rgb(99, 96, 96);
+    padding-inline:20px ;
+    
+}
+.hero-section{
+    height: 500px;
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+}
+.left em{
+    color: yellow;
+}
+.left{
+    background-color: #080808;
+    width: 50%;
+
+}
+.left h1{
+    font-size: 60px;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 300;
+}
+.right{
+   
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #080808;
+   
+}
+.box{
+    height: 400px;
+    width: 500px;
+    /* background-color: burlywood; */
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.btn-section{
+    height: 70px;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+.btn-1{
+    height: 40px;
+    width: 170px;
+    background-color:rgb(237, 232, 232);
+    border: none;
+}
+.btn-2{
+    height: 45px;
+    width: 170px;
+    color:yellow;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: black;
+}
+.btn-2 i{
+    color: white;
+    margin-right: 5px;
+    font-size: 30px;
+    position: relative;
+    top: 3px;
+    /* font-size: 50px; */
+    
+}
+.box h1{
+    color: white;
+}
+.card-sections{
+    height: 200px;
+    width: 100%;
+    background-color: #080808;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 200px;
+    width: 350px;
+    /* background-color: brown; */
+    padding-inline: 20px;
+    
+}
+.cardinnersection{
+    height: 200px;
+width: 90%;
+/* background-color: burlywood; */
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.card:first-child{
+    border-right: 1px solid gray;
+}
+.card:nth-child(2){
+    border-right: 1px solid gray;
+}
+.card p{
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-family:"Sour Gummy", serif;
+    font-weight: 300;
+
+}
+.img-part{
+    height: 40px;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.card img{
+    height: 30px;
+
+}
+
+/* responsive */
+@media (max-width:768px) {
+    .container{
+        height:auto ;
+        width: 100%;
+    }
+    .small-container{
+        height: auto;
+        width: 90%;
+    }
+    .small-small-container{
+        height: auto;
+        width: 95%;
+    }
+    nav{
+        height: 7%;
+        width: 100%;
+    }
+    .right-nav{
+        display: none;
+    }
+    .left-nav{
+width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: brown; */
+    }
+    .sign-up{
+        display: none;
+    }
+    .left-nav p{
+    right: 300px;
+    font-size: 30px;
+    }
+    .hero-section{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right{
+        width: 100%;
+        margin-top: 0px;
+    }
+        .box{
+            height:400px;
+            width: 500px;
+            /* background-color: burlywood; */
+            margin-left: 40px;
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+        }
+
+
+    
+}
+
+
